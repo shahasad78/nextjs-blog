@@ -5,6 +5,7 @@ import Date from '../components/date';
 
 import {getSortedPostsData} from "../lib/posts";
 
+// @ts-ignore
 import utilStyles from '../styles/utils.module.css';
 
 export default function Home({allPostsData}) {
